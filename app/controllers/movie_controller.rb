@@ -1,6 +1,7 @@
 class MovieController < ApplicationController
 
 def index
+<<<<<<< HEAD
   @movies = Movie.all
 end
 
@@ -42,4 +43,19 @@ end
 
 def editform
   @movie = Movie.find(params[:id])
+=======
+
+end
+
+def add_movie
+
+end
+
+def edit_movie
+
+end
+
+def delete_movie
+
+>>>>>>> origin/master
 end

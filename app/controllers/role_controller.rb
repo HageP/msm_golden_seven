@@ -1,4 +1,5 @@
 class RoleController < ApplicationController
+<<<<<<< HEAD
     def index
       @roles = Role.all
     end
@@ -43,3 +44,5 @@ class RoleController < ApplicationController
       @role.destroy
     end
   end
+=======
+>>>>>>> origin/master

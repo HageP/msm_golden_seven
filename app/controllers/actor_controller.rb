@@ -1,4 +1,5 @@
 class ActorController < ApplicationController
+<<<<<<< HEAD
   def index
     @actors = Actor.all
   end
@@ -44,3 +45,5 @@ class ActorController < ApplicationController
 
     @actor.destroy
   end
+=======
+>>>>>>> origin/master

@@ -1,6 +1,7 @@
 class DirectorController < ApplicationController
 
   def index
+<<<<<<< HEAD
       @directors = Director.all
   end
 
@@ -50,3 +51,22 @@ class DirectorController < ApplicationController
   def editform
     @director = Director.find(params[:id])
   end
+=======
+
+  end
+
+  def add_director
+
+  end
+
+  def edit_director
+
+  end
+
+  def delete_director
+
+
+  end
+
+  
+>>>>>>> origin/master
